@@ -27,6 +27,8 @@ bool is_utf8(uint8_t c) {
 
   if (c >> 3 == 30) 
     return true; 
+
+  return false; 
 }
 
 int utf8_count(char *c) { 
@@ -65,5 +67,5 @@ int main(int argc, char **argv) {
   if (line) { 
     free(line);
   }
-
+  return 0; 
 }
