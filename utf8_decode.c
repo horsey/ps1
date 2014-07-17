@@ -58,7 +58,7 @@ int main(int argc, char **argv) {
     
     count = utf8_count(line);
 
-    printf("%d \n", count);
+    printf("%d\n", count);
 
   }
 
